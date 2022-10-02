@@ -1,4 +1,3 @@
-
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,13 +5,16 @@ import { Component } from '@angular/core';
   templateUrl: './listado.component.html',
 })
 export class ListadoComponent {
-
-  heroes: string[] = ['Spiderman','Ironman','Hulk','Thor','Capitán América'];
+  heroes: string[] = [
+    'Spiderman',
+    'Ironman',
+    'Hulk',
+    'Thor',
+    'Capitán América',
+  ];
   heroeBorrado: string = '';
 
   borrarHeroe() {
     this.heroeBorrado = this.heroes.shift() || '';
   }
-
-
 }
