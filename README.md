@@ -1,4 +1,8 @@
-# Bases
+# Angular : De cero a experto
+
+Ejercicio 01-bases del curso "Angular: de cero a experto" de Fernando Herrera.
+
+## Bases
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
 
